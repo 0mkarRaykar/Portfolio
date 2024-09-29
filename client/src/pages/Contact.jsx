@@ -128,7 +128,7 @@ const Contact = () => {
               </Col>
 
               <Col md={12} className="text-center">
-                {loading && <div className="loading">Loading...</div>}
+                {loading && <div className="loading">Sending...</div>}
                 {error && <div className="error-message">{error}</div>}
                 {success && <div className="sent-message">{success}</div>}
 

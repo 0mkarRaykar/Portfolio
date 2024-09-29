@@ -13,7 +13,7 @@ export default defineConfig({
     proxy: {
       // Proxy API requests to the backend
       "/contact": {
-        target: "https://omdev.onrender.com", // Your backend URL
+        target: "http://localhost:8000", // Your backend URL
         changeOrigin: true,
       },
     },
