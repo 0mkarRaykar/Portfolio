@@ -13,7 +13,7 @@ export default defineConfig({
     proxy: {
       // Proxy API requests to the backend
       "/contact": {
-        target: "http://localhost:8000", // Your backend URL
+        target: "https://omkar-portfolio-seven.vercel.app", // Your backend URL
         changeOrigin: true,
       },
     },
