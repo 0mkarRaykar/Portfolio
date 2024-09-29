@@ -13,7 +13,8 @@ export default defineConfig({
     proxy: {
       // Proxy API requests to the backend
       "/contact": {
-        target: "https://omkar-portfolio-seven.vercel.app", // Your backend URL
+        target:
+          "https://portfolio-backend-nrjfounia-omkar-raykars-projects.vercel.app", // Your backend URL
         changeOrigin: true,
       },
     },
