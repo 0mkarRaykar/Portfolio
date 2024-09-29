@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser";
 const app = express();
 
 const allowedOrigins = [
-  "https://portfolio-md6i45k0j-omkar-raykars-projects.vercel.app",
+  "https://portfolio-frontend-dusky.vercel.app",
 ];
 
 app.use(
