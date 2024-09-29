@@ -33,7 +33,10 @@ const Contact = () => {
 
     try {
       // Send data to backend using axios
-      const response = await axios.post("/contact", formData);
+      const response = await axios.post(
+        "https://omkar-portfolio-seven.vercel.app/contact",
+        formData
+      );
 
       if (response.status === 201) {
         setSuccess("Your message has been sent successfully!");
